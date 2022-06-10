@@ -6,8 +6,6 @@ h2 {
     padding: 0;
     margin: auto;
     max-width: 1000px;
-  
-    /* flexbox */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -16,7 +14,7 @@ h2 {
     align-items: flex-start;
   }
   
-  a {
+a {
     background-color: #3f525c;
     border-radius: 2px;
     padding: 1rem;
@@ -29,12 +27,10 @@ h2 {
     min-width: 70px;
     margin: .5rem auto;
     box-sizing: border-box;
-  
-    /* flexbox */
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
-  }
+}
   
   @media (min-width: 600px) {
     a {
